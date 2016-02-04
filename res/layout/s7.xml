@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lv"
+    tools:ignore="HardcodedText,UnknownIdInLayout,ContentDescription" >
+
+<ImageView
+    android:id="@+id/im38"
+    android:layout_width="70dp"
+    android:layout_height="120dp"
+    android:layout_alignLeft="@+id/im35"
+    android:layout_below="@+id/textView2"
+    android:src="@drawable/tt" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:text="THRILLER"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<ImageView
+    android:id="@+id/im36"
+    android:layout_width="70dp"
+    android:layout_height="120dp"
+    android:layout_below="@+id/textView2"
+    android:layout_toRightOf="@+id/textView2"
+    android:src="@drawable/dg" />
+
+<CheckBox
+    android:id="@+id/checkBox1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/im33"
+    android:layout_marginBottom="36dp"
+    android:layout_toLeftOf="@+id/im33"
+    android:text=" " />
+
+<CheckBox
+    android:id="@+id/checkBox2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/checkBox1"
+    android:layout_alignBottom="@+id/checkBox1"
+    android:layout_toLeftOf="@+id/im35"
+    android:text=" " />
+
+<CheckBox
+    android:id="@+id/checkBox4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/im37"
+    android:layout_marginTop="27dp"
+    android:layout_toLeftOf="@+id/im33"
+    android:text=" " />
+
+<CheckBox
+    android:id="@+id/checkBox5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/checkBox4"
+    android:layout_alignBottom="@+id/checkBox4"
+    android:layout_alignLeft="@+id/checkBox2"
+    android:text=" " />
+
+<CheckBox
+    android:id="@+id/checkBox6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/checkBox5"
+    android:layout_alignBottom="@+id/checkBox5"
+    android:layout_alignParentRight="true"
+    android:text=" " />
+
+<ImageView
+    android:id="@+id/im37"
+    android:layout_width="70dp"
+    android:layout_height="120dp"
+    android:layout_below="@+id/textView2"
+    android:layout_toLeftOf="@+id/checkBox4"
+    android:src="@drawable/mall" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@+id/textView2"
+    android:text="Back" />
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@+id/textView3"
+    android:layout_below="@+id/im37"
+    android:text="malice" />
+
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView6"
+    android:layout_alignBottom="@+id/textView6"
+    android:layout_alignLeft="@+id/textView4"
+    android:layout_alignRight="@+id/im36"
+    android:text="da vinci code" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView7"
+    android:layout_alignBottom="@+id/textView7"
+    android:layout_alignLeft="@+id/im38"
+    android:layout_alignRight="@+id/textView5"
+    android:text="girl with dragon tatoo" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="ROMANCE"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView2"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="16dp"
+    android:text="first love" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView3"
+    android:layout_alignBottom="@+id/textView3"
+    android:layout_alignRight="@+id/im36"
+    android:layout_toRightOf="@+id/textView2"
+    android:text="walk to remember" />
+
+<CheckBox
+    android:id="@+id/checkBox3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/checkBox2"
+    android:layout_alignBottom="@+id/checkBox2"
+    android:layout_alignParentRight="true"
+    android:text=" " />
+
+<ImageView
+    android:id="@+id/im35"
+    android:layout_width="70dp"
+    android:layout_height="120dp"
+    android:layout_alignTop="@+id/im33"
+    android:layout_toLeftOf="@+id/checkBox3"
+    android:src="@drawable/tw" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView4"
+    android:layout_alignBottom="@+id/textView4"
+    android:layout_alignParentRight="true"
+    android:text="wuthering heights" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/checkBox5"
+    android:layout_alignParentBottom="true"
+    android:text="Next" />
+
+<ImageView
+    android:id="@+id/im34"
+    android:layout_width="70dp"
+    android:layout_height="120dp"
+    android:layout_above="@+id/textView3"
+    android:layout_marginBottom="14dp"
+    android:layout_toLeftOf="@+id/checkBox1"
+    android:src="@drawable/fl" />
+
+<ImageView
+    android:id="@+id/im33"
+    android:layout_width="70dp"
+    android:layout_height="120dp"
+    android:layout_alignTop="@+id/im34"
+    android:layout_toRightOf="@+id/textView1"
+    android:src="@drawable/aw" />
+    
+</RelativeLayout>

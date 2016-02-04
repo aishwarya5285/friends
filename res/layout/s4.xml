@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lght"
+    tools:ignore="UnknownIdInLayout,ContentDescription,HardcodedText" >
+
+    <ImageView
+        android:id="@+id/im15"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/ama" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_toRightOf="@+id/im17"
+        android:text=" " />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox2"
+        android:layout_alignParentRight="true"
+        android:text=" " />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/im16"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@+id/im16"
+        android:text=" " />
+
+    <ImageView
+        android:id="@+id/im18"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/im16"
+        android:layout_toRightOf="@+id/checkBox4"
+        android:src="@drawable/sa" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox4"
+        android:layout_alignBottom="@+id/checkBox4"
+        android:layout_toRightOf="@+id/im18"
+        android:text=" " />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox5"
+        android:layout_alignParentRight="true"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_toLeftOf="@+id/im19"
+        android:text="SHOPPIE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/im17"
+        android:layout_below="@+id/im18"
+        android:text="Finish" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im17"
+        android:layout_marginBottom="42dp"
+        android:layout_toLeftOf="@+id/but1"
+        android:text=" " />
+
+    <ImageView
+        android:id="@+id/im16"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/im15"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/voo" />
+
+    <ImageView
+        android:id="@+id/im17"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/im16"
+        android:layout_toLeftOf="@+id/checkBox5"
+        android:src="@drawable/sd" />
+
+    <ImageView
+        android:id="@+id/im19"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/im16"
+        android:layout_toLeftOf="@+id/checkBox3"
+        android:src="@drawable/oo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im15"
+        android:layout_alignParentLeft="true"
+        android:text="amazon" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/im17"
+        android:layout_below="@+id/checkBox2"
+        android:text="snapdeal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/im19"
+        android:layout_below="@+id/checkBox2"
+        android:text="flipkart" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox4"
+        android:text="voonik" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignRight="@+id/im18"
+        android:text="saholic" />
+
+    <ImageView
+        android:id="@+id/im20"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/im18"
+        android:layout_toRightOf="@+id/checkBox5"
+        android:src="@drawable/ee" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/textView6"
+        android:text="ebay" />
+
+</RelativeLayout>

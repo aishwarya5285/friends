@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink"
+    tools:ignore="HardcodedText,UnknownIdInLayout,ContentDescription" >
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/butto1"
+        android:layout_alignBottom="@+id/butto1"
+        android:layout_alignLeft="@+id/im26"
+        android:text=" Next" />
+
+    <Button
+        android:id="@+id/butto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/im22"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/im25"
+        android:layout_alignLeft="@+id/im24"
+        android:text="POP"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="ROCK"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/im24"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/im22"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/mee" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im24"
+        android:layout_marginBottom="41dp"
+        android:layout_toRightOf="@+id/im24"
+        android:text=" " />
+
+    <ImageView
+        android:id="@+id/im25"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/butto1"
+        android:layout_toRightOf="@+id/checkBox4"
+        android:src="@drawable/ms" />
+    <ImageView
+        android:id="@+id/im22"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/im25"
+        android:layout_below="@+id/textView1"
+        android:src="@drawable/dr" />
+
+    <ImageView
+        android:id="@+id/im26"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginRight="34dp"
+        android:src="@drawable/ty" />
+
+    <ImageView
+        android:id="@+id/im23"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_alignRight="@+id/but5"
+        android:layout_below="@+id/textView1"
+        android:src="@drawable/gg" />
+
+    <ImageView
+        android:id="@+id/im27"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/im24"
+        android:layout_toLeftOf="@+id/checkBox4"
+        android:src="@drawable/ea" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im27"
+        android:layout_marginBottom="43dp"
+        android:layout_toRightOf="@+id/im27"
+        android:text=" " />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_toRightOf="@+id/im22"
+        android:text=" " />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox2"
+        android:layout_alignParentRight="true"
+        android:text=" " />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox4"
+        android:layout_alignBottom="@+id/checkBox4"
+        android:layout_toRightOf="@+id/im25"
+        android:text=" " />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox5"
+        android:layout_alignBottom="@+id/checkBox5"
+        android:layout_alignParentRight="true"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im27"
+        android:layout_alignParentLeft="true"
+        android:text="beatles" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/im24"
+        android:layout_alignRight="@+id/im22"
+        android:layout_marginRight="16dp"
+        android:text="doors" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignRight="@+id/im23"
+        android:text="green day" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/im24"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/checkBox4"
+        android:text="micheal jackson" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/im25"
+        android:layout_below="@+id/checkBox5"
+        android:text="maroon5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/im26"
+        android:layout_below="@+id/textView7"
+        android:text="taylor swift" />
+
+</RelativeLayout>
